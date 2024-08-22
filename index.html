@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar program bersama Nurul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">NQ.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#tutors">Tutors</a></li>
+                    <li><a href="#patners">Patners</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="" class="tbl-biru">Sign up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!--untuk home-->
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_23-2149365021.jpg?ga=GA1.1.1413737679.1724233626&semt=ais_hybrid"
+                alt="NQ">
+            <div class="kolom">
+                <p class="deskripsi"> Belajar progaming #dirumahaja</p>
+                <h2>Tetap Sehat, Tetap Semangat</h2>
+                <p>Teknologi terus berkembang, dan kita punya kesempatan untuk terus belajar tanpa batas. Apapun
+                    kondisinya, semangat untuk mengasah kemampuan dan keterampilan tetap harus dijaga. Jangan biarkan
+                    tantangan menghalangi langkahmu, karena setiap tantangan adalah peluang untuk tumbuh lebih kuat dan
+                    lebih bijaksana.</p>
+                <p><a href="" class="tbl-pink">pelajari lebih lanjut</a></p>
+            </div>
+        </section>
+
+        <!--untuk courses-->
+        <section id="courses">
+            <div class="kolom">
+                <p class="deskripsi">You Will Need This</p>
+                <h2>Online courses</h2>
+                <p>Di era digital ini, belajar tidak lagi terbatas oleh ruang dan waktu. Kursus online menawarkan
+                    fleksibilitas untuk memperdalam pengetahuan dan keterampilan kapan saja dan di mana saja. Dari dasar
+                    hingga tingkat lanjutan, Anda dapat menemukan kursus yang sesuai dengan kebutuhan Anda.</p>
+                <p>Jangan lewatkan kesempatan untuk terus berkembang dengan mengikuti kursus yang relevan dengan minat
+                    dan tujuan Anda. Tingkatkan kompetensi, peroleh sertifikasi, dan buka peluang karier baru melalui
+                    pembelajaran online.</p>
+                <p><a href="" class="tbl-biru">pelajari lebih lanjut</a></p>
+            </div>
+            <img
+                src="https://img.freepik.com/free-vector/e-learning-interactions-illustration-concept_114360-23713.jpg?ga=GA1.2.1413737679.1724233626&semt=ais_hybrid">
+        </section>
+
+        <!--untuk tutors-->
+        <section id="tutors">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Top Tutors</p>
+                    <h2>Tutors</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,placeat.
+                    </p>
+                </div>
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img src="IMG/Tutors-1.jpg">
+                        <p>Xaviera Putri</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="IMG/Tutors-2.jpg">
+                        <p>Sandhika galih</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="IMG/Tutors-3.jpg">
+                        <p>Dea Afrizal</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="IMG/Tutors-4.jpg">
+                        <p>Sandy kristian waluyo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--untuk patners-->
+        <section id="patners">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Top patners</p>
+                    <h2>patners</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit laboriosam cupiditate
+                        laborum, consectetur exercitationem quos rerum harum quia doloribus.</p>
+                </div>
+                <div class="patner-list">
+                    <div class="kartu-patner">
+                        <img
+                            src="IMG/Patner-1.png">
+                    </div>
+                    <div class="kartu-patner">
+                        <img
+                            src="IMG/Patner-2.png">
+                    </div>
+                    <!---->
+                    <div class="kartu-patner">
+                        <img
+                            src="IMG/Patner-3.png">
+                    </div>
+                    <!--LOGO UB-->
+                    <div class="kartu-patner">
+                        <img
+                            src="IMG/Patner-4.png">
+                    </div>
+                    <!-- LOGO UI-->
+                    <div class="kartu-patner">
+                        <img
+                            src="IMG/Patner-5.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
