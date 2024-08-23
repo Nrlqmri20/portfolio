@@ -161,7 +161,7 @@ p{
     flex-wrap: wrap;
     margin: auto;
 }
-.footer-setion{
+.footer-section{
     width: 20%;
     margin: 0 auto;
 }
@@ -173,4 +173,48 @@ h3{
     color: #3f71af;
     width: 100%;
     line-height: 50px;
+}
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu{
+        width: 100%;
+        margin: 0;
+    }
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .kartu-tutor {
+        width: 50%;
+    }
+    .kartu-patner{
+        width: 50%;
+    }
 }
